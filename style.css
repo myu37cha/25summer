@@ -8,7 +8,7 @@ body {
 
 header {
   background-color: #fededd;
-  color: white;
+  color: #333;
   padding: 20px 0;
 }
 
@@ -33,5 +33,5 @@ button:hover {
 #recommendation p {
   font-size: 18px;
   margin-top: 20px;
-  color: #333;
+  color: #afafaf;
 }
