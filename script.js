@@ -2,32 +2,35 @@ function showRecommendation(mood) {
   const recommendation = document.getElementById("recommendation");
 
   const moodTracks = {
-    "元気": [
-  { title: "TWICE - Talk that Talk", id: "aWRGP0Sri6z0TsP3" },
-  { title: "TWICE - Dance The Night Away", id: "Fm5iP0S1z9w" },
-  { title: "TWICE - ONE SPARK", id: "67Oe2LWddss" },
-  { title: "TWICE - FANCY", id: "kOHB85vDuEw" },
-  { title: "TWICE - LIKEY", id: "V2hlQkVJZhE" }
-    ],
-    "リラックス": [
-      "Nujabes - Reflection Eternal",
-      "Aimer - 星の消える夜に",
-      "Lofi Chill - Snow Fall",
-      "藤井風 - ガーデン"
-    ],
-    "おはよう": [
-      "Official髭男dism - Universe",
-      "Spitz - 空も飛べるはず",
-      "Vaundy - 僕は今日も",
-      "YUKI - ふがいないや"
-    ],
-    "おやすみ": [
-      "RADWIMPS - なんでもないや",
-      "Piano Sleep - Rainy Night",
-      "Ryo Fukui - Scenery",
-      "Sheena Ringo - 浴室"
-    ]
-  };
+  "元気": [
+    { title: "TWICE - Talk that Talk", id: "aWRGP0Sri6z0TsP3" },
+    { title: "TWICE - Dance The Night Away", id: "Fm5iP0S1z9w" },
+    { title: "TWICE - ONE SPARK", id: "67Oe2LWddss" },
+    { title: "TWICE - FANCY", id: "kOHB85vDuEw" },
+    { title: "TWICE - LIKEY", id: "V2hlQkVJZhE" }
+  ],
+  "リラックス": [
+    { title: "TWICE - MOONLIGHT SUNRISE", id: "cEx2M447BJw" },
+    { title: "TWICE - Queen of Hearts", id: "rZVZ1ZfGx6g" },
+    { title: "TWICE - Gone", id: "ZxkW9kQ2v9g" },
+    { title: "TWICE - Wallflower", id: "ZzqKxKjZK9E" },
+    { title: "TWICE - When We Were Kids", id: "JYodSpcJaJM" }
+  ],
+  "おはよう": [
+    { title: "TWICE - I GOT YOU", id: "jE3lBnYxBFs" },
+    { title: "TWICE - ONE SPARK", id: "67Oe2LWddss" },
+    { title: "TWICE - Basics", id: "Y1VwZAY53rw" },
+    { title: "TWICE - Celebrate", id: "JYodSpcJaJM" },
+    { title: "TWICE - The Feels", id: "f5_wn8mexmM" }
+  ],
+  "おやすみ": [
+    { title: "TWICE - Brave", id: "JYodSpcJaJM" },
+    { title: "TWICE - Trouble", id: "JYodSpcJaJM" },
+    { title: "TWICE - CRY FOR ME", id: "JYodSpcJaJM" },
+    { title: "TWICE - Sweet Talker", id: "JYodSpcJaJM" },
+    { title: "TWICE - The Best Thing I Ever Did", id: "JYodSpcJaJM" }
+  ]
+};
 
   const tracks = moodTracks[mood];
   const mainIndex = Math.floor(Math.random() * tracks.length);
