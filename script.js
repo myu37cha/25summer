@@ -6,21 +6,21 @@ function showRecommendation(mood) {
     { title: "TWICE - Talk that Talk", id: "k6jqx9kZgPM" },
     { title: "TWICE - Dance The Night Away", id: "Fm5iP0S1z9w" },
     { title: "TWICE - ONE SPARK", id: "jCzez_q8si0" },
-    { title: "TWICE - FANCY", id: "JoV8c7MPHpwu-M7n" },
-    { title: "TWICE - LIKEY", id: "kOHB85vDuow" }
+    { title: "TWICE - FANCY", id: "kOHB85vDuow" },
+    { title: "TWICE - LIKEY", id: "V2hlQkVJZhE" }
   ],
   "リラックス": [
-    { title: "TWICE - MOONLIGHT SUNRISE", id: "zHjPJITrMJfGils_" },
+    { title: "TWICE - MOONLIGHT SUNRISE", id: "cKlEE_EYuNM" },
     { title: "TWICE - Queen of Hearts", id: "Q4Rb5_kjS2M" },
-    { title: "TWICE - Gone", id: "IN_dhhR8gBtt0lpi" },
+    { title: "TWICE - Gone", id: "5x5HlWxv72s" },
     { title: "TWICE - Wallflower", id: "iQZ0aevvtO4" },
     { title: "TWICE - When We Were Kids", id: "nEuRhtp6u8k" }
   ],
   "おはよう": [
-    { title: "TWICE - I GOT YOU", id: "jE3lBnYxBFs" },
-    { title: "TWICE - ONE SPARK", id: "67Oe2LWddss" },
-    { title: "TWICE - Basics", id: "Y1VwZAY53rw" },
-    { title: "TWICE - Celebrate", id: "JYodSpcJaJM" },
+    { title: "TWICE - I GOT YOU", id: "haf67eKF0uo" },
+    { title: "TWICE - ONE SPARK", id: "jCzez_q8si0" },
+    { title: "TWICE - Basics", id: "Vm6prJ76kmA" },
+    { title: "TWICE - Celebrate", id: "fMIn43MiwG8" },
     { title: "TWICE - The Feels", id: "f5_wn8mexmM" }
   ],
   "おやすみ": [
