@@ -3,29 +3,46 @@ function showRecommendation(mood) {
 
   const moodTracks = {
     "元気": [
-      "🎵 TWICE - Feel Special",
-      "🎵 YOASOBI - アイドル"
+      "TWICE - Feel Special",
+      "YOASOBI - アイドル",
+      "Aimer - Brave Shine",
+      "Perfume - FLASH"
     ],
     "リラックス": [
-      "🧘‍♀️ Nujabes - Reflection Eternal",
-      "🧘‍♀️ Aimer - 星の消える夜に"
+      "Nujabes - Reflection Eternal",
+      "Aimer - 星の消える夜に",
+      "Lofi Chill - Snow Fall",
+      "藤井風 - ガーデン"
     ],
     "おはよう": [
-      "🌅 Official髭男dism - Universe",
-      "🌅 Spitz - 空も飛べるはず"
+      "Official髭男dism - Universe",
+      "Spitz - 空も飛べるはず",
+      "Vaundy - 僕は今日も",
+      "YUKI - ふがいないや"
     ],
     "おやすみ": [
-      "🌙 RADWIMPS - なんでもないや",
-      "🌙 Piano Sleep - Rainy Night"
+      "RADWIMPS - なんでもないや",
+      "Piano Sleep - Rainy Night",
+      "Ryo Fukui - Scenery",
+      "Sheena Ringo - 浴室"
     ]
   };
 
   const tracks = moodTracks[mood];
-  let message = `<h3>「${mood}」におすすめの曲：</h3><ul>`;
-  tracks.forEach(track => {
-    message += `<li>${track}</li>`;
-  });
-  message += `</ul>`;
+  const mainIndex = Math.floor(Math.random() * tracks.length);
+  const mainTrack = tracks[mainIndex];
 
-  recommendation.innerHTML = message;
+  // 他のおすすめ曲（重複なし）
+  const otherTracks = tracks.filter((_, i) => i !== mainIndex).slice(0, 3);
+
+  // 表示
+  let html = `<h3>「${mood}」にぴったりの曲：</h3>`;
+  html += `<p>🎧 ${mainTrack}</p>`;
+  html += `<h4>他のおすすめ：</h4><ul>`;
+  otherTracks.forEach(track => {
+    html += `<li>${track}</li>`;
+  });
+  html += `</ul>`;
+
+  recommendation.innerHTML = html;
 }
