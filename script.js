@@ -42,13 +42,29 @@ function showRecommendation(mood) {
   const otherTracks = tracks.filter((_, i) => i !== mainIndex).slice(0, 3);
 
   // 表示
-  let html = `<h3>「${mood}」にぴったりの曲：</h3>`;
-  html += `<p>🎧 ${mainTrack}</p>`;
-  html += `<h4>他のおすすめ：</h4><ul>`;
+ let html = `<h3>「${mood}」にぴったりの曲：</h3>`;
+  html += `
+    <div>
+      <a href="https://www.youtube.com/watch?v=${mainTrack.id}" target="_blank">
+        <img src="https://img.youtube.com/vi/${mainTrack.id}/mqdefault.jpg" alt="${mainTrack.title}" />
+      </a>
+      <p>${mainTrack.title}</p>
+    </div>
+  `;
+
+  html += `<h4>他のおすすめ：</h4><div style="display:flex;justify-content:center;gap:20px;">`;
   otherTracks.forEach(track => {
-    html += `<li>${track}</li>`;
+    html += `
+      <div>
+        <a href="https://www.youtube.com/watch?v=${track.id}" target="_blank">
+          <img src="https://img.youtube.com/vi/${track.id}/mqdefault.jpg" alt="${track.title}" width="120" />
+        </a>
+        <p style="font-size:14px;">${track.title}</p>
+      </div>
+    `;
   });
-  html += `</ul>`;
+  html += `</div>`;
+
 
   recommendation.innerHTML = html;
 }
