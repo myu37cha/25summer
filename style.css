@@ -30,10 +30,17 @@ button:hover {
   background-color: #9cd5f6;
 }
 
-#recommendation p {
-  font-size: 18px;
-  margin-top: 20px;
-  color: #757575;
+.track-card p {
+  font-size: 14px;
+  margin: 8px 0;
+  color: #333;
+}
+
+.track-description {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
 }
 
 .main-track {
