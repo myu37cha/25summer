@@ -4,15 +4,26 @@ function showRecommendation(mood) {
   const moodTracks = {
     "元気": [
       {
-        title: "TWICE - Feel Special",
-        id: "FzVR_fymZw4"
+        title: "TWICE - Talk that Talk",
+        id: "aWRGP0Sri6z0TsP3"
       },
-      {
-        title: "YOASOBI - アイドル",
-        id: "ZRtdQ81I3_c"
-      }
-      "Aimer - Brave Shine",
-      "Perfume - FLASH"
+      "元気": [
+  {
+    title: "TWICE - Dance The Night Away",
+    id: "Fm5iP0S1z9w"
+  },
+  {
+    title: "TWICE - ONE SPARK",
+    id: "67Oe2LWddss"
+  },
+  {
+    title: "TWICE - FANCY",
+    id: "kOHB85vDuEw"
+  },
+  {
+    title: "TWICE - LIKEY",
+    id: "V2hlQkVJZhE"
+  }
     ],
     "リラックス": [
       "Nujabes - Reflection Eternal",
