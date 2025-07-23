@@ -1,13 +1,13 @@
 body {
   font-family: 'Arial', sans-serif;
   text-align: center;
-  background-color: #f8f8ff;
+  background-color: #fff5f4;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #6c7ae0;
+  background-color: #fededd;
   color: white;
   padding: 20px 0;
 }
