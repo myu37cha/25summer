@@ -19,8 +19,10 @@
     <button onclick="showRecommendation('おやすみ')">おやすみ🌙💤</button>
   </section>
 
-  <section id="recommendation"></section>
-
+  <section id="recommendation">
+  　<p>ここにおすすめの曲が表示されます🎶</p>
+　</section>
+  
   <script>
     function showRecommendation(mood) {
       const recommendation = document.getElementById("recommendation");
@@ -31,9 +33,6 @@
           break;
         case "リラックス":
           message = "🧘‍♀️ ゆったりジャズやLo-Fiはいかが？";
-          break;
-        case "悲しい":
-          message = "😢 バラードで心に寄り添ってみよう";
           break;
       }
       recommendation.innerHTML = `<p>${message}</p>`;
