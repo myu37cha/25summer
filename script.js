@@ -3,11 +3,10 @@ function showRecommendation(mood) {
 
   const moodTracks = {
     "元気": [
-      {
-        title: "TWICE - Talk that Talk",
-        id: "aWRGP0Sri6z0TsP3"
-      },
-      "元気": [
+  {
+    title: "TWICE - Talk that Talk",
+    id: "aWRGP0Sri6z0TsP3"
+  },
   {
     title: "TWICE - Dance The Night Away",
     id: "Fm5iP0S1z9w"
