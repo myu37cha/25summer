@@ -51,28 +51,27 @@ function showRecommendation(mood) {
       <a href="https://www.youtube.com/watch?v=${mainTrack.id}" target="_blank">
         <img src="https://img.youtube.com/vi/${mainTrack.id}/mqdefault.jpg" alt="${mainTrack.title}" />
       </a>
-      <p>${mainTrack.title}</p>
+      <p 
+  style="font-size:14px; cursor:${mainTrack.description ? 'pointer' : 'default'};" 
+  onclick="${mainTrack.description ? `toggleDescription('${mainTrack.id}')` : ''}"
+>
+  ${mainTrack.title}
+</p>
+<div id="${mainTrack.id}" class="track-description" style="display:none; font-size:12px; color:#666;">
+  ${mainTrack.description || ""}
+</div>
     </div>
   `;
 
 html += `<h4>他のおすすめ：</h4><div style="display:flex;justify-content:center;gap:20px;">`;
 
 otherTracks.forEach(track => {
-  const clickable = track.description ? `onclick="toggleDescription('${track.id}')"` : '';
-  const cursor = track.description ? 'pointer' : 'default';
-  const description = track.description || "";
-
   html += `
     <div class="track-card" style="text-align:center;">
       <a href="https://www.youtube.com/watch?v=${track.id}" target="_blank">
         <img src="https://img.youtube.com/vi/${track.id}/mqdefault.jpg" alt="${track.title}" width="120" />
       </a>
-      <p style="font-size:14px; cursor:${cursor};" ${clickable}>
-        ${track.title}
-      </p>
-      <div id="${track.id}" class="track-description" style="display:none; font-size:12px; color:#666;">
-        ${description}
-      </div>
+      <p style="font-size:14px;">${track.title}</p>
     </div>
   `;
 });
