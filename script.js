@@ -12,7 +12,7 @@ function showRecommendation(mood) {
     { title: "TWICE - FANCY", id: "kOHB85vDuow", 
      description: "サビの“Fancy you~”で気分急上昇💫 MVはカラフルで幻想的な世界観🌟" },
     { title: "TWICE - LIKEY", id: "V2hlQkVJZhE", 
-     description: "SNSにいいねをもらう気持ちをキュートに歌った1曲❤" }
+     description: "SNSにいいねをもらう気持ちをキュートに歌った1曲💌" }
   ],
   "リラックス": [
     { title: "TWICE - MOONLIGHT SUNRISE", id: "cKlEE_EYuNM" },
