@@ -17,7 +17,7 @@ header {
 }
 
 button {
-  background-color: #e0e0f8;
+  background-color: #e0f2fc;
   border: none;
   margin: 10px;
   padding: 15px 25px;
@@ -27,7 +27,7 @@ button {
 }
 
 button:hover {
-  background-color: #c0c0f0;
+  background-color: #9cd5f6;
 }
 
 #recommendation p {
