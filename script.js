@@ -10,11 +10,11 @@ function showRecommendation(mood) {
     { title: "TWICE - LIKEY", id: "mTIZMvAnQlGLw9dy" }
   ],
   "リラックス": [
-    { title: "TWICE - MOONLIGHT SUNRISE", id: "cEx2M447BJw" },
-    { title: "TWICE - Queen of Hearts", id: "rZVZ1ZfGx6g" },
-    { title: "TWICE - Gone", id: "ZxkW9kQ2v9g" },
-    { title: "TWICE - Wallflower", id: "ZzqKxKjZK9E" },
-    { title: "TWICE - When We Were Kids", id: "JYodSpcJaJM" }
+    { title: "TWICE - MOONLIGHT SUNRISE", id: "zHjPJITrMJfGils_" },
+    { title: "TWICE - Queen of Hearts", id: "oMmuTAd-B-_ebTm6" },
+    { title: "TWICE - Gone", id: "IN_dhhR8gBtt0lpi" },
+    { title: "TWICE - Wallflower", id: "GSJs_4mHPQjRcyLx" },
+    { title: "TWICE - When We Were Kids", id: "o0QtSUz2Uwm9QoRh" }
   ],
   "おはよう": [
     { title: "TWICE - I GOT YOU", id: "jE3lBnYxBFs" },
