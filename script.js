@@ -3,11 +3,16 @@ function showRecommendation(mood) {
 
   const moodTracks = {
   "元気": [
-    { title: "TWICE - Talk that Talk", id: "k6jqx9kZgPM" },
-    { title: "TWICE - Dance The Night Away", id: "Fm5iP0S1z9w" },
-    { title: "TWICE - ONE SPARK", id: "jCzez_q8si0" },
-    { title: "TWICE - FANCY", id: "kOHB85vDuow" },
-    { title: "TWICE - LIKEY", id: "V2hlQkVJZhE" }
+    { title: "TWICE - Talk that Talk", id: "k6jqx9kZgPM", 
+     description: "" },
+    { title: "TWICE - Dance The Night Away", id: "Fm5iP0S1z9w", 
+     description: "" },
+    { title: "TWICE - ONE SPARK", id: "jCzez_q8si0", 
+     description: "" },
+    { title: "TWICE - FANCY", id: "kOHB85vDuow", 
+     description: "サビの“Fancy you~”で気分急上昇💫 MVはカラフルで幻想的な世界観🌟" },
+    { title: "TWICE - LIKEY", id: "V2hlQkVJZhE", 
+     description: "SNSにいいねをもらう気持ちをキュートに歌った1曲❤" }
   ],
   "リラックス": [
     { title: "TWICE - MOONLIGHT SUNRISE", id: "cKlEE_EYuNM" },
