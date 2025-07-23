@@ -46,22 +46,22 @@ function showRecommendation(mood) {
 
   // 表示
  let html = `<h3>「${mood}」にぴったりの曲：</h3>`;
-  html += `
-    <div>
-      <a href="https://www.youtube.com/watch?v=${mainTrack.id}" target="_blank">
-        <img src="https://img.youtube.com/vi/${mainTrack.id}/mqdefault.jpg" alt="${mainTrack.title}" />
-      </a>
-      <p 
-  style="font-size:14px; cursor:${mainTrack.description ? 'pointer' : 'default'};" 
-  onclick="${mainTrack.description ? `toggleDescription('${mainTrack.id}')` : ''}"
->
-  ${mainTrack.title}
-</p>
-<div id="${mainTrack.id}" class="track-description" style="display:none; font-size:12px; color:#666;">
-  ${mainTrack.description || ""}
-</div>
+html += `
+  <div class="track-card main-track" style="text-align:center;">
+    <a href="https://www.youtube.com/watch?v=${mainTrack.id}" target="_blank">
+      <img src="https://img.youtube.com/vi/${mainTrack.id}/mqdefault.jpg" alt="${mainTrack.title}" />
+    </a>
+    <p 
+      style="font-size:14px; cursor:${mainTrack.description ? 'pointer' : 'default'};" 
+      onclick="${mainTrack.description ? `toggleDescription('${mainTrack.id}')` : ''}"
+    >
+      ${mainTrack.title}
+    </p>
+    <div id="${mainTrack.id}" class="track-description" style="display:none; font-size:12px; color:#666;">
+      ${mainTrack.description || ""}
     </div>
-  `;
+  </div>
+`;
 
 html += `<h4>他のおすすめ：</h4><div style="display:flex;justify-content:center;gap:20px;">`;
 
