@@ -24,11 +24,11 @@ function showRecommendation(mood) {
     { title: "TWICE - The Feels", id: "f5_wn8mexmM" }
   ],
   "おやすみ": [
-    { title: "TWICE - Brave", id: "xrUu2U-zF88" },
-    { title: "TWICE - Trouble", id: "JYodSpcJaJM" },
-    { title: "TWICE - CRY FOR ME", id: "YHNU7JxE7Ew" },
-    { title: "TWICE - Sweet Talker", id: "JYodSpcJaJM" },
-    { title: "TWICE - The Best Thing I Ever Did", id: "JYodSpcJaJM" }
+    { title: "TWICE - Brave", id: "uE67Gu5TFQM" },
+    { title: "TWICE - Trouble", id: "UaCBS4K9R64" },
+    { title: "TWICE - CRY FOR ME", id: "bkQw-F1QTq4" },
+    { title: "TWICE - MOONLIGHT", id: "InRt1kpqVPw" },
+    { title: "TWICE - The Best Thing I Ever Did", id: "CfUGjK6gGgs" }
   ]
 };
 
