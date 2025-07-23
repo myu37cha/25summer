@@ -3,18 +3,18 @@ function showRecommendation(mood) {
 
   const moodTracks = {
   "元気": [
-    { title: "TWICE - Talk that Talk", id: "Sj9Yl2ZDZrRcqgXw" },
+    { title: "TWICE - Talk that Talk", id: "k6jqx9kZgPM" },
     { title: "TWICE - Dance The Night Away", id: "Fm5iP0S1z9w" },
-    { title: "TWICE - ONE SPARK", id: "0eqNrlSqoO-BYOmr" },
+    { title: "TWICE - ONE SPARK", id: "jCzez_q8si0" },
     { title: "TWICE - FANCY", id: "JoV8c7MPHpwu-M7n" },
-    { title: "TWICE - LIKEY", id: "mTIZMvAnQlGLw9dy" }
+    { title: "TWICE - LIKEY", id: "kOHB85vDuow" }
   ],
   "リラックス": [
     { title: "TWICE - MOONLIGHT SUNRISE", id: "zHjPJITrMJfGils_" },
-    { title: "TWICE - Queen of Hearts", id: "oMmuTAd-B-_ebTm6" },
+    { title: "TWICE - Queen of Hearts", id: "Q4Rb5_kjS2M" },
     { title: "TWICE - Gone", id: "IN_dhhR8gBtt0lpi" },
-    { title: "TWICE - Wallflower", id: "GSJs_4mHPQjRcyLx" },
-    { title: "TWICE - When We Were Kids", id: "o0QtSUz2Uwm9QoRh" }
+    { title: "TWICE - Wallflower", id: "iQZ0aevvtO4" },
+    { title: "TWICE - When We Were Kids", id: "nEuRhtp6u8k" }
   ],
   "おはよう": [
     { title: "TWICE - I GOT YOU", id: "jE3lBnYxBFs" },
