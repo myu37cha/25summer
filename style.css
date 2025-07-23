@@ -35,3 +35,18 @@ button:hover {
   margin-top: 20px;
   color: #757575;
 }
+
+.main-track {
+  background-color: #fff0f6;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.main-track::before {
+  content: "❤️";
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 20px;
+}
