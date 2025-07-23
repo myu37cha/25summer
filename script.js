@@ -57,7 +57,12 @@ otherTracks.forEach(track => {
       <a href="https://www.youtube.com/watch?v=${track.id}" target="_blank">
         <img src="https://img.youtube.com/vi/${track.id}/mqdefault.jpg" alt="${track.title}" width="120" />
       </a>
-      <p style="font-size:14px; cursor:pointer;" onclick="toggleDescription('${track.id}')">${track.title}</p>
+      <p 
+  style="font-size:14px; cursor:${track.description ? 'pointer' : 'default'};" 
+  onclick="${track.description ? `toggleDescription('${track.id}')` : ''}"
+>
+  ${track.title}
+</p>
       <div id="${track.id}" class="track-description" style="display:none; font-size:12px; color:#666;">
         ${track.description || ""}
       </div>
