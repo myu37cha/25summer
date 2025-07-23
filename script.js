@@ -3,8 +3,14 @@ function showRecommendation(mood) {
 
   const moodTracks = {
     "元気": [
-      "TWICE - Feel Special",
-      "YOASOBI - アイドル",
+      {
+        title: "TWICE - Feel Special",
+        id: "FzVR_fymZw4"
+      },
+      {
+        title: "YOASOBI - アイドル",
+        id: "ZRtdQ81I3_c"
+      }
       "Aimer - Brave Shine",
       "Perfume - FLASH"
     ],
