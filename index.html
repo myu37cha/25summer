@@ -23,21 +23,6 @@
   　<p>ここにおすすめの曲が表示されます🎶</p>
 　</section>
   
-  <script>
-    function showRecommendation(mood) {
-      const recommendation = document.getElementById("recommendation");
-      let message = "";
-      switch(mood) {
-        case "元気":
-          message = "🎵 アップテンポなポップがおすすめ！";
-          break;
-        case "リラックス":
-          message = "🧘‍♀️ ゆったりジャズやLo-Fiはいかが？";
-          break;
-      }
-      recommendation.innerHTML = `<p>${message}</p>`;
-    }
-  </script>
   <script src="script.js"></script>
 </body>
 </html>
