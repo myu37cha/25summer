@@ -3,11 +3,11 @@ function showRecommendation(mood) {
 
   const moodTracks = {
   "元気": [
-    { title: "TWICE - Talk that Talk", id: "aWRGP0Sri6z0TsP3" },
+    { title: "TWICE - Talk that Talk", id: "Sj9Yl2ZDZrRcqgXw" },
     { title: "TWICE - Dance The Night Away", id: "Fm5iP0S1z9w" },
-    { title: "TWICE - ONE SPARK", id: "67Oe2LWddss" },
-    { title: "TWICE - FANCY", id: "kOHB85vDuEw" },
-    { title: "TWICE - LIKEY", id: "V2hlQkVJZhE" }
+    { title: "TWICE - ONE SPARK", id: "0eqNrlSqoO-BYOmr" },
+    { title: "TWICE - FANCY", id: "JoV8c7MPHpwu-M7n" },
+    { title: "TWICE - LIKEY", id: "mTIZMvAnQlGLw9dy" }
   ],
   "リラックス": [
     { title: "TWICE - MOONLIGHT SUNRISE", id: "cEx2M447BJw" },
@@ -24,9 +24,9 @@ function showRecommendation(mood) {
     { title: "TWICE - The Feels", id: "f5_wn8mexmM" }
   ],
   "おやすみ": [
-    { title: "TWICE - Brave", id: "JYodSpcJaJM" },
+    { title: "TWICE - Brave", id: "xrUu2U-zF88" },
     { title: "TWICE - Trouble", id: "JYodSpcJaJM" },
-    { title: "TWICE - CRY FOR ME", id: "JYodSpcJaJM" },
+    { title: "TWICE - CRY FOR ME", id: "YHNU7JxE7Ew" },
     { title: "TWICE - Sweet Talker", id: "JYodSpcJaJM" },
     { title: "TWICE - The Best Thing I Ever Did", id: "JYodSpcJaJM" }
   ]
